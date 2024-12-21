@@ -1,0 +1,122 @@
+/* Nav bar syling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #FEFDEC;
+    color: black;
+    font-family: sans-serif;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navlinks a {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navlinks a:hover {
+    text-decoration: none;
+    color: #0367F2;
+}
+
+
+/* Hero section syling */
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: linear-gradient(135deg, #1F1E1E, #070707);
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    text-align: center;
+    line-height: 1.2;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.grey-colour {
+    color: grey;
+}
+
+
+.hero-content p {
+    font-size: 14px;
+    color: chartreuse;
+    margin-bottom: 4px;
+}
+
+#fragment-identifier {
+    color: #ffffff;
+    text-decoration: none;
+    position: top left;
+}
+/* About-me section syling */
+.about-me {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-height: fit-content;
+    background-color: #EBF0FD;
+}
+@media (max-width: 600px){
+    .about-me {
+        flex-direction: column;
+    }
+}
+.about-me-image {
+    padding: 20px;
+   margin: 0px 10px;
+   width: 40%;
+}
+.about-me-text {
+    padding-block: 10px;
+    align-items: center;
+}
+.about-me-text h3 {
+   margin-block: 12px 0px;
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+color: #070707;
+
+}
+
+.about-me-text h4 {
+    margin-block: 0px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #070707;
+}
+
+.about-me-text p {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    line-height: 1.6;
+    letter-spacing: -2;
+    color: #5A6475;
+    margin-block: 12px 
+    ;
+}
