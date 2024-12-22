@@ -4,9 +4,8 @@ This repository documents the step-by-step process of provisioning a Linux serve
 
 
 ## Public Access  
-You can access the deployed website using the following public IP address:  
-[http://3.252.139.18/](http://3.252.139.18/)  
-
+You can access the deployed website using the URL:  
+[https://www.oyinboboyedev.cloud/] 
 
 ## Step-by-Step Documentation  
 
@@ -28,13 +27,15 @@ You can access the deployed website using the following public IP address:
 Deployed the following files to the /var/www/html directory:
 - index.html (the main HTML file).
 - index.css (for basic styling).
-- The assets folder (containing necessary images).
+- The assets folder (containing necessary image).
 
 ### 5. Setting Up HTTPS
-. Configured HTTPS using Let's Encrypt to secure the server.
-. Obtained a domain name from Afraid.dns and linked it to the server.
+- Linked my Domain name "oyinboboyedev.cloud" to the server IP Address.
+- Configured HTTPS using Let's Encrypt to secure the server.
+- Opened up port 443 (on AWS) to allow HTTPS traffic.
+
 Tools and Technologies Used
 - AWS: For hosting the server.
 - Nginx: As the web server.
 - Let's Encrypt: For HTTPS setup.
-- Afraid.dns: For domain name registration.
+
